@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE17669F222D984500932F79 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE17669E222D984500932F79 /* TimerViewController.swift */; };
+		EE1766A1222DA78C00932F79 /* KennyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1766A0222DA78C00932F79 /* KennyViewController.swift */; };
 		EE65CB5B222CFE0300747B45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65CB5A222CFE0300747B45 /* AppDelegate.swift */; };
 		EE65CB5D222CFE0300747B45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65CB5C222CFE0300747B45 /* ViewController.swift */; };
 		EE65CB60222CFE0300747B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE65CB5E222CFE0300747B45 /* Main.storyboard */; };
 		EE65CB63222CFE0300747B45 /* LayoutApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE65CB61222CFE0300747B45 /* LayoutApp.xcdatamodeld */; };
 		EE65CB65222CFE0500747B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE65CB64222CFE0500747B45 /* Assets.xcassets */; };
 		EE65CB68222CFE0500747B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE65CB66222CFE0500747B45 /* LaunchScreen.storyboard */; };
+		EE65CB70222D0D1D00747B45 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65CB6F222D0D1D00747B45 /* SecondViewController.swift */; };
+		EE65CB72222D15F900747B45 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65CB71222D15F900747B45 /* RegisterViewController.swift */; };
+		EE65CB74222D250A00747B45 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65CB73222D250A00747B45 /* ImageViewController.swift */; };
+		EE65CB77222D25D200747B45 /* zgr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE65CB75222D25D100747B45 /* zgr.jpg */; };
+		EE65CB78222D25D200747B45 /* mustang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE65CB76222D25D200747B45 /* mustang.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE17669E222D984500932F79 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		EE1766A0222DA78C00932F79 /* KennyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KennyViewController.swift; sourceTree = "<group>"; };
 		EE65CB57222CFE0300747B45 /* LayoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE65CB5A222CFE0300747B45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE65CB5C222CFE0300747B45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +33,11 @@
 		EE65CB64222CFE0500747B45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE65CB67222CFE0500747B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE65CB69222CFE0500747B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE65CB6F222D0D1D00747B45 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EE65CB71222D15F900747B45 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		EE65CB73222D250A00747B45 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		EE65CB75222D25D100747B45 /* zgr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zgr.jpg; sourceTree = "<group>"; };
+		EE65CB76222D25D200747B45 /* mustang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mustang.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +70,20 @@
 		EE65CB59222CFE0300747B45 /* LayoutApp */ = {
 			isa = PBXGroup;
 			children = (
+				EE65CB76222D25D200747B45 /* mustang.jpg */,
+				EE65CB75222D25D100747B45 /* zgr.jpg */,
 				EE65CB5A222CFE0300747B45 /* AppDelegate.swift */,
 				EE65CB5C222CFE0300747B45 /* ViewController.swift */,
 				EE65CB5E222CFE0300747B45 /* Main.storyboard */,
+				EE1766A0222DA78C00932F79 /* KennyViewController.swift */,
+				EE17669E222D984500932F79 /* TimerViewController.swift */,
+				EE65CB73222D250A00747B45 /* ImageViewController.swift */,
+				EE65CB71222D15F900747B45 /* RegisterViewController.swift */,
 				EE65CB64222CFE0500747B45 /* Assets.xcassets */,
 				EE65CB66222CFE0500747B45 /* LaunchScreen.storyboard */,
 				EE65CB69222CFE0500747B45 /* Info.plist */,
 				EE65CB61222CFE0300747B45 /* LayoutApp.xcdatamodeld */,
+				EE65CB6F222D0D1D00747B45 /* SecondViewController.swift */,
 			);
 			path = LayoutApp;
 			sourceTree = "<group>";
@@ -125,7 +146,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE65CB78222D25D200747B45 /* mustang.jpg in Resources */,
 				EE65CB68222CFE0500747B45 /* LaunchScreen.storyboard in Resources */,
+				EE65CB77222D25D200747B45 /* zgr.jpg in Resources */,
 				EE65CB65222CFE0500747B45 /* Assets.xcassets in Resources */,
 				EE65CB60222CFE0300747B45 /* Main.storyboard in Resources */,
 			);
@@ -138,8 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE1766A1222DA78C00932F79 /* KennyViewController.swift in Sources */,
+				EE65CB70222D0D1D00747B45 /* SecondViewController.swift in Sources */,
+				EE65CB72222D15F900747B45 /* RegisterViewController.swift in Sources */,
 				EE65CB63222CFE0300747B45 /* LayoutApp.xcdatamodeld in Sources */,
+				EE17669F222D984500932F79 /* TimerViewController.swift in Sources */,
 				EE65CB5D222CFE0300747B45 /* ViewController.swift in Sources */,
+				EE65CB74222D250A00747B45 /* ImageViewController.swift in Sources */,
 				EE65CB5B222CFE0300747B45 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
